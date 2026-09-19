@@ -96,8 +96,10 @@ set(PPGSO_SHADER_SRC
         shader/convolution_vert.glsl shader/convolution_frag.glsl
         shader/diffuse_vert.glsl shader/diffuse_frag.glsl
         shader/texture_vert.glsl shader/texture_frag.glsl
-        shader/lighting_vert.glsl shader/lighting_frag.glsl
-        shader/shadow_vert.glsl shader/shadow_frag.glsl
+        src/project/shaders/lighting_vert.glsl src/project/shaders/lighting_frag.glsl
+        src/project/shaders/shadow_vert.glsl src/project/shaders/shadow_frag.glsl
+        src/project/shaders/skybox_vert.glsl src/project/shaders/skybox_frag.glsl
+        src/project/shaders/marker_vert.glsl src/project/shaders/marker_frag.glsl
         )
 add_resources(shaders ${PPGSO_SHADER_SRC})
 

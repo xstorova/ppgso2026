@@ -36,6 +36,7 @@ public:
   bool useBlinnPhong{true};
   bool useHDR{true};
   float gamma{2.2f};
+  bool normalMapEnabled{true};
 
   // =================================================================================
   // [13b] BOD 7 (4b): Shadow-maps - Správa tieňovej mapy a matica priestoru svetla

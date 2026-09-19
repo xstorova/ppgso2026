@@ -3,30 +3,66 @@
 #include <shaders/lighting_vert_glsl.h>
 #include <shaders/lighting_frag_glsl.h>
 #include "../core/scene.h"
+#include <map>
 
 std::unique_ptr<ppgso::Shader> Wall::shader;
 std::unique_ptr<ppgso::Mesh> Wall::mesh;
-std::unique_ptr<ppgso::Texture> Wall::texture;
+std::shared_ptr<ppgso::Texture> Wall::defaultWhiteTexture;
+
+// Vyrovnavacia pamat (cache) textur, aby sme rovnaky subor nenacitavali opakovane
+static std::map<std::string, std::shared_ptr<ppgso::Texture>> textureCache;
+
+static std::shared_ptr<ppgso::Texture> getCachedTexture(const std::string &filename) {
+    if (filename.empty()) return nullptr;
+    auto it = textureCache.find(filename);
+    if (it != textureCache.end()) return it->second;
+    try {
+        auto tex = std::make_shared<ppgso::Texture>(ppgso::image::loadBMP(filename));
+        textureCache[filename] = tex;
+        return tex;
+    } catch (const std::exception &e) {
+        std::cerr << "[Wall] Nepodarilo sa nacitat texturu: " << filename << " (" << e.what() << ")" << std::endl;
+        return nullptr;
+    }
+}
 
 Wall::Wall(float x1, float z1, float x2, float z2,
            float yBottom, float yTop, float thickness,
-           float transparency)
-    : transparency(transparency) {
+           float transparency,
+           bool useNormalMap,
+           const std::string &diffuseFile,
+           const std::string &normalMapFile,
+           glm::vec2 texScale)
+    : transparency(transparency), hasNormalMap(useNormalMap), textureScale(texScale) {
     if (!shader) shader = std::make_unique<ppgso::Shader>(lighting_vert_glsl, lighting_frag_glsl);
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("cube.obj");
-    if (!texture) {
+    if (!defaultWhiteTexture) {
         ppgso::Image white(4, 4);
         white.clear({240, 240, 240});
-        texture = std::make_unique<ppgso::Texture>(std::move(white));
+        defaultWhiteTexture = std::make_shared<ppgso::Texture>(std::move(white));
     }
 
-    // Material pre stenu: matny povrch so slabym specular leskom
+    if (!diffuseFile.empty()) {
+        texture = getCachedTexture(diffuseFile);
+    }
+    if (hasNormalMap && !normalMapFile.empty()) {
+        normalMap = getCachedTexture(normalMapFile);
+    }
+
+    // Nastavenie materialu
     if (transparency < 1.0f) {
-        // Sklo: jemny modrasty leskly material
-        material.ambient = glm::vec3(0.1f, 0.2f, 0.3f);
-        material.diffuse = glm::vec3(0.4f, 0.7f, 0.9f);
-        material.specular = glm::vec3(0.9f, 0.95f, 1.0f);
-        material.shininess = 64.0f;
+        // [Okno] Sklo: cire, vysoko priehladne s vyraznym zrkadlovym leskom (specular highlight)
+        material.ambient = glm::vec3(0.02f, 0.04f, 0.06f);
+        material.diffuse = glm::vec3(0.08f, 0.15f, 0.25f);
+        material.specular = glm::vec3(1.0f, 1.0f, 1.0f);
+        material.shininess = 128.0f;
+    } else if (hasNormalMap) {
+        // [1b] Hrbolata stena (Normal Mapping):
+        // Zvyseny specular a jemny lesk, aby sa plasticky zvyraznili detaily pri pohybe svetla
+        material.ambient = glm::vec3(0.18f, 0.18f, 0.18f);
+        material.diffuse = glm::vec3(0.9f, 0.88f, 0.85f);
+        material.specular = glm::vec3(0.55f, 0.55f, 0.55f);
+        material.shininess = 32.0f;
     } else {
         material.ambient = glm::vec3(0.15f, 0.15f, 0.15f);
         material.diffuse = glm::vec3(0.85f, 0.85f, 0.85f);
@@ -56,12 +92,26 @@ void Wall::render(const Scene &scene, float widthPx, float heightPx) {
     shader->setUniform("material.specular", material.specular);
     shader->setUniform("material.shininess", material.shininess);
 
-    shader->setUniform("Texture", *texture);
+    if (texture) {
+        shader->setUniform("Texture", *texture, 0);
+    } else {
+        shader->setUniform("Texture", *defaultWhiteTexture, 0);
+    }
+
+    // [1b] Objekt s vyuzitim hrbolatej textury (Normal Mapping)
+    if (hasNormalMap && normalMap) {
+        shader->setUniform("normalMap", *normalMap, 2);
+        glUniform1i(shader->getUniformLocation("useNormalMap"), 1);
+    } else {
+        glUniform1i(shader->getUniformLocation("useNormalMap"), 0);
+    }
+
     shader->setUniform("Transparency", transparency);
     shader->setUniform("ModelMatrix", modelMatrix());
     shader->setUniform("ViewMatrix", scene.camera.viewMatrix());
     shader->setUniform("ProjectionMatrix", scene.camera.projectionMatrix(widthPx, heightPx));
     shader->setUniform("TextureOffset", glm::vec2(0.0f, 0.0f));
+    shader->setUniform("TextureScale", textureScale);
 
     if (transparency < 1.0f) {
         glEnable(GL_BLEND);

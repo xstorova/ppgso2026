@@ -210,6 +210,12 @@ void Scene::handleKey(int key, int action) {
       spotLight.enabled = !spotLight.enabled;
       std::cout << "[Svetlo] Reflektor (spotlight): " << (spotLight.enabled ? "ZAPNUTE" : "VYPNUTE") << std::endl;
     }
+
+    // [1b] Prepinanie hrbolatej textury (Normal Mapping) (klaves V)
+    if (key == GLFW_KEY_V) {
+      normalMapEnabled = !normalMapEnabled;
+      std::cout << "[Normal Mapping] (1b) Hrbolata textura: " << (normalMapEnabled ? "ZAPNUTE" : "VYPNUTE") << std::endl;
+    }
   }
 }
 
@@ -217,6 +223,13 @@ void Scene::uploadLighting(const ppgso::Shader &shader) const {
   shader.use();
 
   shader.setUniform("CameraPosition", camera.position);
+
+  // =================================================================================
+  // [1b] Normal Mapping - Globalne povolenie a predvolene hodnoty pre objekty
+  // =================================================================================
+  glUniform1i(shader.getUniformLocation("normalMapGlobalEnabled"), normalMapEnabled ? 1 : 0);
+  glUniform1i(shader.getUniformLocation("useNormalMap"), 0);
+  shader.setUniform("TextureScale", glm::vec2(1.0f, 1.0f));
 
   // =================================================================================
   // [13b] BOD 7 (4b): Odovzdanie tieňovej matice, tieňovej textúry a prepínača do shaderu

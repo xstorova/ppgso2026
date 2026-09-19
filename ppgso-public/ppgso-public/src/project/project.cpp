@@ -50,12 +50,17 @@ public:
     scene.objects.push_back(std::make_unique<Floor>(floorTopY, roomHalf, roomHalf, floorThickness));
     scene.objects.push_back(std::make_unique<Ceiling>(wallTopY, roomHalf, roomHalf, ceilThickness));
 
-    // Zadná stena: rohy (-roomHalf, -roomHalf) -> (roomHalf, -roomHalf)
+    // [1b] Zadná stena s využitím hrboľatej textúry (Normal Mapping):
     scene.objects.push_back(std::make_unique<Wall>(
         -roomHalf, -roomHalf,
          roomHalf, -roomHalf,
          floorTopY, wallTopY,
-         wallDepth));
+         wallDepth,
+         1.0f,
+         true,
+         "wall_diffuse.bmp",
+         "wall_normal.bmp",
+         glm::vec2(4.0f, 2.0f)));
 
     // Predna stena s vyrezanym otvorom pre okno:
     const float winX1 = -2.5f;
@@ -68,42 +73,72 @@ public:
         -roomHalf, roomHalf,
          winX1,    roomHalf,
          floorTopY, wallTopY,
-         wallDepth));
+         wallDepth,
+         1.0f,
+         false,
+         "wall_diffuse.bmp",
+         "",
+         glm::vec2(2.0f, 2.0f)));
 
     // 2. Prava cast prednej steny: od konca okna (winX2) po roomHalf
     scene.objects.push_back(std::make_unique<Wall>(
          winX2,    roomHalf,
          roomHalf, roomHalf,
          floorTopY, wallTopY,
-         wallDepth));
+         wallDepth,
+         1.0f,
+         false,
+         "wall_diffuse.bmp",
+         "",
+         glm::vec2(2.0f, 2.0f)));
 
     // 3. Spodna cast prednej steny pod oknom (parapet)
     scene.objects.push_back(std::make_unique<Wall>(
          winX1, roomHalf,
          winX2, roomHalf,
          floorTopY, winY1,
-         wallDepth));
+         wallDepth,
+         1.0f,
+         false,
+         "wall_diffuse.bmp",
+         "",
+         glm::vec2(2.0f, 1.0f)));
 
     // 4. Horna cast prednej steny nad oknom (preklad)
     scene.objects.push_back(std::make_unique<Wall>(
          winX1, roomHalf,
          winX2, roomHalf,
          winY2, wallTopY,
-         wallDepth));
+         wallDepth,
+         1.0f,
+         false,
+         "wall_diffuse.bmp",
+         "",
+         glm::vec2(2.0f, 1.0f)));
 
     // Lava stena: rohy (-roomHalf, -roomHalf) -> (-roomHalf, roomHalf)
     scene.objects.push_back(std::make_unique<Wall>(
         -roomHalf, -roomHalf,
         -roomHalf,  roomHalf,
          floorTopY, wallTopY,
-         wallDepth));
+         wallDepth,
+         1.0f,
+         false,
+         "wall_diffuse.bmp",
+         "",
+         glm::vec2(4.0f, 2.0f)));
 
     // Prava stena: rohy (roomHalf, -roomHalf) -> (roomHalf, roomHalf)
     scene.objects.push_back(std::make_unique<Wall>(
          roomHalf, -roomHalf,
          roomHalf,  roomHalf,
          floorTopY, wallTopY,
-         wallDepth));
+         wallDepth,
+         1.0f,
+         false,
+         "wall_diffuse.bmp",
+         "",
+         glm::vec2(4.0f, 2.0f)));
 
     // [13b] BOD 7 (4b): Objekty v miestnosti vrhajuce tiene (podstavec pod stromom + stlp)
     scene.objects.push_back(std::make_unique<Pedestal>(0.0f, 0.5f, 0.0f));
@@ -113,12 +148,13 @@ public:
     scene.objects.push_back(std::make_unique<LightMarker>(0));
 
     // Priehladne okno osadene presne do vyrezaneho otvoru prednej steny (na konci kvoli alpha blendingu)
+    // Zvýšená priehľadnosť (transparency = 0.12f) pre čistý priehľad von do skyboxu
     scene.objects.push_back(std::make_unique<Wall>(
         winX1, roomHalf,
         winX2, roomHalf,
         winY1, winY2,
         0.08f,
-        0.35f));
+        0.12f));
 
     std::cout << "\n=======================================================\n";
     std::cout << " PPGSO Projekt - Osvetlenie a Shadow-maps (13b)\n";
@@ -133,6 +169,7 @@ public:
     std::cout << "  B:                        Prepinanie Blinn-Phong / klasicky Phong\n";
     std::cout << "  H:                        Prepinanie HDR tone mapping + gama korekcia\n";
     std::cout << "  X:                        Zapnutie/vypnutie Shadow-maps (4b)\n";
+    std::cout << "  V:                        Zapnutie/vypnutie Normal Mapping (1b hrbolata textura)\n";
     std::cout << "  N:                        Zapnutie/vypnutie smeroveho svetla (mesiac)\n";
     std::cout << "  M:                        Zapnutie/vypnutie reflektora (spotlight)\n";
     std::cout << "=======================================================\n\n";

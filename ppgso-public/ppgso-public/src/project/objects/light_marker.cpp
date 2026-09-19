@@ -1,14 +1,14 @@
 #include "light_marker.h"
 
-#include <shaders/color_vert_glsl.h>
-#include <shaders/color_frag_glsl.h>
+#include <shaders/marker_vert_glsl.h>
+#include <shaders/marker_frag_glsl.h>
 #include "../core/scene.h"
 
 std::unique_ptr<ppgso::Shader> LightMarker::shader;
 std::unique_ptr<ppgso::Mesh> LightMarker::mesh;
 
 LightMarker::LightMarker(size_t lightIndex) : lightIndex(lightIndex) {
-  if (!shader) shader = std::make_unique<ppgso::Shader>(color_vert_glsl, color_frag_glsl);
+  if (!shader) shader = std::make_unique<ppgso::Shader>(marker_vert_glsl, marker_frag_glsl);
   if (!mesh) mesh = std::make_unique<ppgso::Mesh>("sphere.obj");
 
   scale = glm::vec3(0.25f);
