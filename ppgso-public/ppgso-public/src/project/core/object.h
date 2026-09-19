@@ -5,13 +5,17 @@
 
 #include "camera.h"
 
+class Scene;
+
 class Object {
 public:
   Object() = default;
   virtual ~Object() = default;
 
   virtual void update(float dt) {}
+  virtual void render(const Scene &scene, float width, float height);
   virtual void render(const Camera &camera, float width, float height) {}
+  virtual void renderDepth(const ppgso::Shader &depthShader) {}
 
   virtual glm::mat4 modelMatrix() const {
     glm::mat4 matrix = glm::translate(glm::mat4(1.0f), position);

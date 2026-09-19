@@ -11,6 +11,7 @@ public:
   void moveForward(float amount);
   void moveRight(float amount);
   void turn(float angleRadians);
+  void lookUp(float angleRadians);
   glm::mat4 viewMatrix() const;
   glm::mat4 projectionMatrix(float width, float height) const;
 

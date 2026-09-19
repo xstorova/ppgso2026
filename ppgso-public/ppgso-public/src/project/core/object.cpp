@@ -1,4 +1,6 @@
 #include "object.h"
+#include "scene.h"
 
-// Intentionally empty. This file keeps the project module structure consistent
-// and allows future object implementations to live in their own source files.
+void Object::render(const Scene &scene, float width, float height) {
+  render(scene.camera, width, height);
+}

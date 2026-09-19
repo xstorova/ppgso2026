@@ -2,6 +2,7 @@
 #define PROJECT_FLOOR_H
 
 #include "../core/object.h"
+#include "../core/light.h"
 
 class Floor : public Object {
 public:
@@ -11,7 +12,9 @@ public:
   // thickness = hrúbka podlahy
   Floor(float topY, float halfWidth, float halfDepth, float thickness);
 
-  void render(const Camera &camera, float width, float height) override;
+  void render(const Scene &scene, float width, float height) override;
+
+  Material material;
 
 private:
   static std::unique_ptr<ppgso::Shader> shader;

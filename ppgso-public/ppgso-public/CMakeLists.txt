@@ -96,6 +96,8 @@ set(PPGSO_SHADER_SRC
         shader/convolution_vert.glsl shader/convolution_frag.glsl
         shader/diffuse_vert.glsl shader/diffuse_frag.glsl
         shader/texture_vert.glsl shader/texture_frag.glsl
+        shader/lighting_vert.glsl shader/lighting_frag.glsl
+        shader/shadow_vert.glsl shader/shadow_frag.glsl
         )
 add_resources(shaders ${PPGSO_SHADER_SRC})
 
@@ -239,9 +241,13 @@ add_executable(project
         src/project/core/object.cpp
         src/project/core/scene.cpp
         src/project/core/camera.cpp
+        src/project/core/shadow_map.cpp
         src/project/objects/floor.cpp
         src/project/objects/skybox.cpp
-        src/project/objects/wall.cpp)
+        src/project/objects/wall.cpp
+        src/project/objects/ceiling.cpp
+        src/project/objects/light_marker.cpp
+        src/project/objects/pedestal.cpp)
 target_link_libraries(project ppgso shaders)
 install(TARGETS project DESTINATION .)
 add_custom_command(TARGET project POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/data/ ${CMAKE_CURRENT_BINARY_DIR})

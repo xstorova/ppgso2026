@@ -1,3 +1,5 @@
+#include <cmath>
+
 #include "camera.h"
 
 Camera::Camera(float fov, float nearPlane, float farPlane)
@@ -22,11 +24,20 @@ void Camera::moveRight(float amount) {
 }
 
 void Camera::turn(float angleRadians) {
-  glm::vec3 right = glm::normalize(glm::cross(forward, up));
   glm::mat4 rotation = glm::rotate(glm::mat4(1.0f), angleRadians, up);
   forward = glm::normalize(glm::vec3(rotation * glm::vec4(forward, 0.0f)));
   target = position + forward;
-  (void)right;
+}
+
+void Camera::lookUp(float angleRadians) {
+  glm::vec3 right = glm::normalize(glm::cross(forward, up));
+  glm::mat4 rotation = glm::rotate(glm::mat4(1.0f), angleRadians, right);
+  glm::vec3 newForward = glm::normalize(glm::vec3(rotation * glm::vec4(forward, 0.0f)));
+
+  if (std::abs(newForward.y) < 0.95f) {
+    forward = newForward;
+    target = position + forward;
+  }
 }
 
 glm::mat4 Camera::viewMatrix() const {
