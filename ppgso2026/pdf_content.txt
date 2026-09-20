@@ -1,0 +1,220 @@
+Princípy počítačovej grafiky ​
+a spracovania obrazu 
+Podmienky absolvovania predmetu ZS 2026-27 
+Prednášky: Ing. Peter Kapec, PhD. 
+Cvičenia: Ing. Peter Kapec, PhD. 
+ 
+Hodnotenie:​ 
+●​ priebežné hodnotenie počas semestra: 
+○​ projekt: 60b rozdelených na 
+■​ Návrh projektu: 3b 
+■​ Správa k projektu: 7b 
+■​ Hodnotenie implementácie projektu: 50b 
+○​ priebežný písomný test: 10b 
+●​ záverečná skúška: 30b 
+ 
+Podmienky na pripustenie ku skúške (“zápočet”): 
+●​ Aktívna účasť na cvičeniach, práca na úlohách a projekte. 
+○​ Aktívne riešenie úloh na dané cvičenie a predvedenie vypracovaného 
+riešenia úlohy cvičiacemu na príslušnom cvičení 
+○​ Je nutné úspešne vypracovať aspoň 5 zo zadaných úloh priamo na 
+cvičeniach. V prípade nestihnutia vypracovania úlohy je nutné úlohu 
+dokončiť v deň cvičení a zaslať cvičiacemu do 23:59.  
+○​ Zadané úlohy na cvičeniach NIE sú bodované a NIE sú súčasťou 
+hodnotenia 
+●​ Vypracovanie projektu 
+○​ Odovzdanie do UIS a/alebo Google Drive podľa pokynov v mieste 
+odovzdania najneskôr: 
+■​ do 25.10.2026 do 23:59 - návrhu projektu 
+■​ do 08.12.2026 do 23:59 - implementácia projektu 
+■​ do 13.12.2026 do 23:59 - správa k projektu, prílohy 
+○​ Implementácia projektu bude vyhodnotená v rámci predvedenia projektu 
+cvičiacemu na poslednom cvičení 09.12.2026, prípadne v termíne podľa 
+dohody s cvičiacim 
+●​ Získať minimálne 
+○​ aspoň 3b z priebežného písomného testu 
+■​ test bude predbežne v 7. týždni, najneskôr v 10. týždni, bude 
+upresnené min. 1 týždeň vopred 
+○​ aspoň 35b v súčte z hodnotenia projektu, návrhu a správy k projektu,​
+v súlade so stanovenými požiadavkami 
+ 
+Podmienky absolvovania predmetu: 
+●​ Splnenie podmienok na pripustenie ku skúške, vid. vyššie 
+●​ Získanie aspoň 56b z celkového hodnotenia za predmet 
+●​ Zo záverečnej skúšky je potrebné získať min. 10b 
+ 
+Penalizácie za oneskorenie odovzdania: 
+●​ Po termíne odovzdania návrhu projektu do UIS a/alebo G-Suite Drive je možné 
+získať max. 50% bodov za návrh  
+●​ Celkové hodnotenie projektu, správy k projektu a príloh, sa znižuje o 10b za 
+každý začatý týždeň oneskorenia začínajúci dňom po termíne odovzdania 
+implementácie projektu do UIS a/alebo Google Drive. 
+●​ Bez penalizácie je možné oneskorené odovzdanie len v odôvodnených 
+prípadoch spôsobených závažnými situáciami (napr. hospitalizácia v nemocnici a 
+pod.) a riadne zaevidovanými na študijnom oddelení 
+ 
+Organizácia práce na úlohách na cvičeniach: 
+●​ Úlohy na cvičeniach sú riešené individuálne 
+ 
+Organizácia práce na projekte: 
+●​ Výber projektu: 
+○​ Projekty sa rezervujú záväzne 
+○​ Vytvorenie dvojíc a registrácia témy projektu - do konca 2. týždňa 
+■​ Témy projektov si registrujte tu 
+○​ V rámci jedného cvičenia pracuje na jednej téme projektu len jedna 
+dvojica, ak je projekt už rezervovaný, tak si vyberte iný 
+○​ Témy projektov sú orientačné, konkrétna realizácia je na kreativite 
+študentov 
+○​ Špeciálne projekty sú možné po konzultácii s cvičiacim 
+●​ Dvojica študentov sa ideálne podieľa rovnomerným podielom práce na projekte a 
+je hodnotená spoločným rovnakým hodnotením, pokiaľ sa nedohodnú inak. 
+●​ Študenti sú povinný jasne deklarovať podiel práce na jednotlivých hodnotených 
+častiach projektu 
+●​ Študenti sú povinný pribežne udržiavať implementáciu svojho projektu v Git 
+repozitári manažovanom cez GitHub Classroom: 
+○​ Repozitár vytvorte pomocou nasledovného odkazu (podľa cvičenia): 
+■​ Streda o 12:00 (TODO) 
+○​ Repozitár pomenujte: Nazov projektu-Priezvisko1_Priezvisko2 
+Projekt 
+Vytvorte tzv. grafické demo na danú tému, v ktorom bude 3D scéna obsahovať rôzne 
+3D pohybujúce sa objekty, zdroje svetla, častice atď. Grafické demo bude postupne 
+v čase prezentovať túto scénu a objekty z rôznych pohľadov tak, aby vynikli jednotlivé 
+techniky počítačovej grafiky uvedené v požiadavkách nižšie. Cieľom je vytvoriť 
+zaujímavé grafické demo, pričom dôraz je kladený na techniky počítačovej grafiky 
+a grafické efekty. Pomocou grafického dema skúste prezentovať nejakú “myšlienku” 
+alebo “príbeh”, podľa Vašej fantázie, pričom demo musí mať logický začiatok, priebeh 
+a koniec, a musí trvať aspoň 2 minúty, pričom demo nemôže byť “statické”.  
+ 
+Príklad, ako rozpracovať tému Akvárium 
+Projekt bude obsahovať 2 scény. Prvá scéna je pohľad na akvárium na stole, vedľa 
+akvária bude lampa. Druhá scéna je priamo obsah akvária. Kamera najprv zobrazí 
+akvárium na stole a potom sa presunie do vnútra akvária. V akváriu bude podlaha 
+z piesku, na ktorom budu kamene, vodné rastliny, mušle atď. V akváriu bude truhla 
+s vekom, ktoré sa bude pravidelne otvárať-zatvárať. Ďalej tam bude čerpadlo, ktoré 
+bude produkovať vzduchové bublinky, ktoré kmitavým pohybom budú stúpať nahor. 
+Môžeme pridať malého potápača, ktorý sa bude potápať z lode na hladine ku dnu 
+akvária a naspäť. A nesmieme zabudnúť na rôzne živé rybičky, rakov, sasanky atď. 
+Cieľom dema je, aby kamera “preletela” týmto akváriom a zastavila sa pri každom 
+zaujímavom objekte v akváriu a chvíľu ho sledovala… 
+ 
+●​ Ďalšie inšpirácie môžete nájsť v demoscene, napr. fr-08: .the .product by 
+farbrausch | 64k intro (2000) 
+ 
+ 
+Návrh projektu [3b]: 
+●​ (1.5b) Náčrt jednotlivých scén a “príbehu” pomocou storyboard-u v čase (môže 
+byť ručne kreslené)  
+●​ (1.5b) Podrobná špecifikácia, sumarizácia a opis správania sa objektov v 
+scénach, opis grafických efektov  
+●​ Termín: do 25.10.2026 do 23:59 
+ 
+Hodnotenie projektu [50b]  
+●​ [9b] 3D objekty  
+○​ (2b) Objekty ako unikátne 3D polygonálne modely  
+○​ (2b) Unikátne mapovanie textúr pomocou UV koordinátov na 3D objekt 
+○​ (2b) Efektívne inštancovanie 3D objektu: zobrazenie aspoň 5000 inštancií ​
+​
+za použitia OpenGL inštancovania 
+○​ (2b) Priesvitné objekty 
+■​ Správne vykreslenie priesvitných a nepriesvitných objektov v jednej 
+scéne - napr. usporiadať priesvitné objekty a vykresľovať ich od 
+najvzdialenejších po najbližšie ku kamere 
+○​ (1b) Objekt s využitím hrboľatej textúry (normal mapping) 
+●​ [8b] Scéna  
+○​ (2b) Procedurálne generovaná scéna  
+■​ Obmedzenia a lokácia objektov definovaná (ne-)deterministickým 
+algoritmom a/alebo na základe dátovej štruktúry 
+○​ (4b) Hierarchická reprezentácia scény 
+■​ Každá scéna bude mať logické priestorové usporiadanie (napr. 
+podlaha, pozadie, obloha, strop, steny…) implementované 
+pomocou grafu scény, ktorý bude implementovaný min. ako 
+stromová dátová štruktúra 
+■​ Využitie hierarchickej transformácie v scéne  
+●​ Aspoň 2 úrovne hierarchie medzi 3-mi objektmi 
+●​ Použitie kompozície maticových transformácii 
+○​ (2b) Využitie techniky mapovania na kocku (cube mapping) 
+■​ na vytvorenie tzv. Sky-box-u, alebo 
+■​ na mapovanie okolitého prostredia na povrch objektu (tzv. 
+Environment Mapping) 
+●​ [6b] Animované objekty  
+○​ (2b) Procedurálna animácia  
+■​ Simulácia komplexného správania/rozhodovania sa objektu (napr. 
+logické vetvenie, cyklus, uzavretá metóda s parametrami atď.) 
+○​ (3b) Animácia na základe dát uložených v kľúčových snímkoch a 
+interpolácie   
+■​ Kľúčový snímok je reprezentovaný samostatnou dátovou 
+štruktúrou, ktorá  uchováva transformácie objektu (min. pozícia a 
+natočenie) v čase 
+○​ (1b) Animácia riadená komplexnými animačnými krivkami pre plynulý 
+pohyb (lineárna interpolácia a smoothstep funkcia nestačí) 
+●​ [7b] Simulácia, časticový systém  
+○​ (3b) Efektívna kolízia medzi objektami  
+■​ Implementovaná pomocou testov s tzv. ohraničujúcimi telesami 
+■​ Dynamická odozva na kolíziu, t.j. správny odraz od 
+nakloneného/šikmého povrchu podľa normály povrchu v mieste 
+kolízie 
+○​ (2b) Simulácia aspoň s dvoma silami s použitím vektorovej algebry  
+■​ Musí sa počítať okrem rýchlosti aj zrýchlenie, napr. gravitácia + 
+vietor, a musí podporovať hmotnosť telies  
+■​ Správna implementácia numerickej integrácie, napr. semi-implicitná 
+Eulerova integrácia, alebo RK4 
+○​ (2b) Simulácia pevných telies (rigid bodies) so správnym výpočtom síl,  
+kombinácie lineárneho a uhlového pohybu, a aplikácie krútiaceho 
+momentu 
+●​ [3b] Práca s kamerou 
+○​ (2b) Kamera s perspektívnou projekciou, správna zmena veľkosti okna a 
+zobrazovacieho priestoru, zmena parametrov kamery    
+○​ (1b) Animovaná kamera pomocou kľúčových snímkov, ktoré obsahujú 
+informáciu v danom čase kde sa kamera nachádza a kam sa pozerá, 
+použitie inej ako lineárnej interpolácie  
+●​ [13b] Osvetlenie za pomoci viacerých svetelných zdrojov  
+○​ (3b) Použitie všetkých typov zdrojov svetla s príslušnými parametrami: 
+smerové, bodové, reflektor  
+○​ (1b) Zmena pozície a orientácie zdrojov svetla a odtieňov farby osvetlenia  
+○​ (1b) Správne kombinovať difúzne svetlo z 2 zdrojov svetla s difúznymi 
+materiálmi  
+○​ (2b) Správny Phongov osvetľovací model s viacerými (aspoň 3) zdrojmi 
+svetla, pričom musí byť splnené: 
+■​ Správne tlmenie svetla na základe hĺbky 
+■​ Použité aspoň tri zložky farby materiálu a tri zložky farby svetla 
+■​ Správne kombinovať zložky farby materiálu a zložky farby svetla 
+○​ (1b) Implementácia Blinn-Phongovho modifikovaného osvetľovacieho 
+modelu 
+○​ (1b) HDR zobrazenie s použitím mapovania tónov (tone mapping) a gama 
+korekcie 
+○​ Tiene implementované (alternatívy) 
+■​ (1b) jednoduchým spôsobom, pričom tieň sa musí prepočítavať 
+vzhľadom na vzájomnú pozíciu a vzdialenosť objektu a zdroja 
+svetla, t.j. tieň nesmie byt "staticky" prelepený k objektu, alebo  
+■​ (4b) pomocou shadow-maps  
+●​ [4b] Post-processing  
+○​ Zobrazenie scény s aplikovaným post-processing filtrom (alternatívy) 
+■​ (1b) základný per-pixel filter napr. grayscale, alebo  
+■​ cez framebuffer 
+●​ (2b) konvolučný filter, alebo 
+●​ (4b) pokročilý filter, napr. bloom  
+●​ Termín: predviesť na cvičení 09.12.2026 
+ 
+ 
+Správa k projektu a prílohy [7b]: 
+Finálna správa a prílohy sa odovzdávajú samostatne do príslušných miest odovzdania 
+podľa inštrukcií 
+●​ (7b) Správa v .pdf s nasledujúcou štruktúrou 
+○​ titulná strana - meno a priezvisko študentov, predmet, čas cvičení 
+○​ obsah 
+○​ návrh projektu odovzdaný počas semestra 
+○​ min. 6x A4 - podrobný opis implementácie a vlastností riešenia 
+■​ (4b) dátové štruktúry a algoritmy 
+●​ ich použitie ilustrované vhodnými obrázkami 
+●​ ako boli implementované hodnotené body projektu 
+■​ (1b) opis scén pomocou grafu scény, opis priestorových vzťahov  
+■​ (1b) opis objektov v scéne pomocou diagramu tried  
+○​ min. 2x A4 s obrázkami  
+■​ (1b) ideálne ako sekvencia obrázkov zodpovedajúca storyboard-u 
+○​ podiel práce študentov na jednotlivých častiach implementácie 
+○​ deklarácia a opis využitia GenAI 
+●​ Povinné prílohy: 
+○​ spustiteľný balík v .zip 
+○​ reprezentatívny obrázok z projektu v .jpg 
+○​ video celého projektu v .mkv/.mp4 (ideálne kodek x265/HEVC) 
+●​ Termín:  do 13.12.2026 do 23:59 
