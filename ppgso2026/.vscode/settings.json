@@ -1,0 +1,7 @@
+{
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/ppgso-public/ppgso-public/cmake-build-debug",
+    "--background-index"
+  ],
+  "cmake.sourceDirectory": "C:/Users/micha/Desktop/PPGSO2/ppgso-public/ppgso-public"
+}

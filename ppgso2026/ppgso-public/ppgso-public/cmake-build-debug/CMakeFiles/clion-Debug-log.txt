@@ -1,0 +1,11 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\bstor\Desktop\PPGSO2\ppgso2026\ppgso-public\ppgso-public -B C:\Users\bstor\Desktop\PPGSO2\ppgso2026\ppgso-public\ppgso-public\cmake-build-debug
+-- Found GLFW3: C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglfw3.a
+FIND_PATH C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include
+-- Found GLEW: C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include
+-- GLEW_LIBRARIES: C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglew32.a
+-- GLM_INCLUDE_DIR = C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include
+-- Found ASSIMP: C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include (found version "5.3.1565824753")
+-- Using ASSIMP object loader
+-- Configuring done (2.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
