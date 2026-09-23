@@ -5,6 +5,6 @@ FIND_PATH C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/depe
 -- GLEW_LIBRARIES: C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglew32.a
 -- GLM_INCLUDE_DIR = C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include
 -- Using ASSIMP object loader
--- Configuring done (4.8s)
--- Generating done (0.2s)
+-- Configuring done (6.3s)
+-- Generating done (0.1s)
 -- Build files have been written to: C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug

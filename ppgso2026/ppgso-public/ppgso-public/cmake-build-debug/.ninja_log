@@ -79,7 +79,7 @@
 15465	26980	8115390661792719	libppgso.a	fdb74c88aeb9c113
 5162	24853	8115390558772066	CMakeFiles/project.dir/src/project/core/shadow_map.cpp.obj	e416d45cde711ec0
 4035	26649	8115390547489642	CMakeFiles/project.dir/src/project/core/object.cpp.obj	721bac91e004d369
-26	9551	8118076561656411	CMakeFiles/project.dir/src/project/project.cpp.obj	ef7ea056cf62692d
+15	4800	8118572319413421	CMakeFiles/project.dir/src/project/project.cpp.obj	ef7ea056cf62692d
 4395	30465	8115390551084579	CMakeFiles/project.dir/src/project/core/camera.cpp.obj	93aeb6f5365233f8
 4189	29414	8115390549026503	CMakeFiles/project.dir/src/project/core/scene.cpp.obj	3c1b4fff17d3cc96
 5692	31448	8115390564056305	CMakeFiles/project.dir/src/project/objects/floor.cpp.obj	2f8aaf2ee55ab5d0
@@ -88,7 +88,7 @@
 13278	35307	8115390639920315	CMakeFiles/project.dir/src/project/objects/ceiling.cpp.obj	d588c6bff5c834f1
 19082	36816	8115390697966391	CMakeFiles/project.dir/src/project/objects/light_marker.cpp.obj	82ace8a53477e7c2
 24950	39155	8115390756648105	CMakeFiles/project.dir/src/project/objects/pedestal.cpp.obj	6bdd8adacf9f51e2
-19590	27675	8118082574995902	project.exe	98b19610139bd633
+4801	9181	8118572367276989	project.exe	af5d94f9f8caa790
 541	2107	8115389346552389	shaders/skybox_frag_glsl.cpp	60d561e8afbe45f7
 541	2107	8115389346552389	shaders/skybox_frag_glsl.h	60d561e8afbe45f7
 541	2107	8115389346552389	C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/skybox_frag_glsl.cpp	60d561e8afbe45f7
@@ -137,5 +137,3 @@
 24	3712	8118548916485295	CMakeFiles/task2_bresenham.dir/src/task2_bresenham/task2_bresenham.cpp.obj	61e3f417eda04c56
 3716	4072	8118548953403702	task2_bresenham.exe	afa8d95c73f93c9f
 28	4168	8118572319545566	CMakeFiles/project.dir/src/project/objects/lamp.cpp.obj	171f0c1a99b53fa0
-15	4800	8118572319413421	CMakeFiles/project.dir/src/project/project.cpp.obj	ef7ea056cf62692d
-4801	9181	8118572367276989	project.exe	af5d94f9f8caa790
