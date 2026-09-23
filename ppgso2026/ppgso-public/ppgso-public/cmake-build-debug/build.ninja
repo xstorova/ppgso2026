@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgs
 #############################################
 # Order-only phony target for shaders
 
-build cmake_object_order_depends_target_shaders: phony || shaders/color_frag_glsl.cpp shaders/color_frag_glsl.h shaders/color_vert_glsl.cpp shaders/color_vert_glsl.h shaders/convolution_frag_glsl.cpp shaders/convolution_frag_glsl.h shaders/convolution_vert_glsl.cpp shaders/convolution_vert_glsl.h shaders/diffuse_frag_glsl.cpp shaders/diffuse_frag_glsl.h shaders/diffuse_vert_glsl.cpp shaders/diffuse_vert_glsl.h shaders/lighting_frag_glsl.cpp shaders/lighting_frag_glsl.h shaders/lighting_vert_glsl.cpp shaders/lighting_vert_glsl.h shaders/marker_frag_glsl.cpp shaders/marker_frag_glsl.h shaders/marker_vert_glsl.cpp shaders/marker_vert_glsl.h shaders/shadow_frag_glsl.cpp shaders/shadow_frag_glsl.h shaders/shadow_vert_glsl.cpp shaders/shadow_vert_glsl.h shaders/skybox_frag_glsl.cpp shaders/skybox_frag_glsl.h shaders/skybox_vert_glsl.cpp shaders/skybox_vert_glsl.h shaders/texture_frag_glsl.cpp shaders/texture_frag_glsl.h shaders/texture_vert_glsl.cpp shaders/texture_vert_glsl.h
+build cmake_object_order_depends_target_shaders: phony || shaders/color_frag_glsl.cpp shaders/color_frag_glsl.h shaders/color_vert_glsl.cpp shaders/color_vert_glsl.h shaders/convolution_frag_glsl.cpp shaders/convolution_frag_glsl.h shaders/convolution_vert_glsl.cpp shaders/convolution_vert_glsl.h shaders/diffuse_frag_glsl.cpp shaders/diffuse_frag_glsl.h shaders/diffuse_vert_glsl.cpp shaders/diffuse_vert_glsl.h shaders/grass_frag_glsl.cpp shaders/grass_frag_glsl.h shaders/grass_shadow_frag_glsl.cpp shaders/grass_shadow_frag_glsl.h shaders/grass_shadow_vert_glsl.cpp shaders/grass_shadow_vert_glsl.h shaders/grass_vert_glsl.cpp shaders/grass_vert_glsl.h shaders/lighting_frag_glsl.cpp shaders/lighting_frag_glsl.h shaders/lighting_vert_glsl.cpp shaders/lighting_vert_glsl.h shaders/marker_frag_glsl.cpp shaders/marker_frag_glsl.h shaders/marker_vert_glsl.cpp shaders/marker_vert_glsl.h shaders/shadow_frag_glsl.cpp shaders/shadow_frag_glsl.h shaders/shadow_vert_glsl.cpp shaders/shadow_vert_glsl.h shaders/skybox_frag_glsl.cpp shaders/skybox_frag_glsl.h shaders/skybox_vert_glsl.cpp shaders/skybox_vert_glsl.h shaders/texture_frag_glsl.cpp shaders/texture_frag_glsl.h shaders/texture_vert_glsl.cpp shaders/texture_vert_glsl.h
 
 build CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.obj: CXX_COMPILER__shaders_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/color_vert_glsl.cpp || cmake_object_order_depends_target_shaders
   DEFINES = -DUSE_ASSIMP=1
@@ -177,6 +177,38 @@ build CMakeFiles/shaders.dir/shaders/marker_frag_glsl.cpp.obj: CXX_COMPILER__sha
   OBJECT_DIR = CMakeFiles\shaders.dir
   OBJECT_FILE_DIR = CMakeFiles\shaders.dir\shaders
 
+build CMakeFiles/shaders.dir/shaders/grass_vert_glsl.cpp.obj: CXX_COMPILER__shaders_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_vert_glsl.cpp || cmake_object_order_depends_target_shaders
+  DEFINES = -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\shaders.dir\shaders\grass_vert_glsl.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\shaders.dir
+  OBJECT_FILE_DIR = CMakeFiles\shaders.dir\shaders
+
+build CMakeFiles/shaders.dir/shaders/grass_frag_glsl.cpp.obj: CXX_COMPILER__shaders_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_frag_glsl.cpp || cmake_object_order_depends_target_shaders
+  DEFINES = -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\shaders.dir\shaders\grass_frag_glsl.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\shaders.dir
+  OBJECT_FILE_DIR = CMakeFiles\shaders.dir\shaders
+
+build CMakeFiles/shaders.dir/shaders/grass_shadow_vert_glsl.cpp.obj: CXX_COMPILER__shaders_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_shadow_vert_glsl.cpp || cmake_object_order_depends_target_shaders
+  DEFINES = -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\shaders.dir\shaders\grass_shadow_vert_glsl.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\shaders.dir
+  OBJECT_FILE_DIR = CMakeFiles\shaders.dir\shaders
+
+build CMakeFiles/shaders.dir/shaders/grass_shadow_frag_glsl.cpp.obj: CXX_COMPILER__shaders_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_shadow_frag_glsl.cpp || cmake_object_order_depends_target_shaders
+  DEFINES = -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\shaders.dir\shaders\grass_shadow_frag_glsl.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\shaders.dir
+  OBJECT_FILE_DIR = CMakeFiles\shaders.dir\shaders
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target shaders
@@ -185,7 +217,7 @@ build CMakeFiles/shaders.dir/shaders/marker_frag_glsl.cpp.obj: CXX_COMPILER__sha
 #############################################
 # Link the static library libshaders.a
 
-build libshaders.a: CXX_STATIC_LIBRARY_LINKER__shaders_Debug CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/lighting_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/lighting_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/shadow_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/shadow_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/skybox_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/skybox_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/marker_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/marker_frag_glsl.cpp.obj
+build libshaders.a: CXX_STATIC_LIBRARY_LINKER__shaders_Debug CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/lighting_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/lighting_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/shadow_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/shadow_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/skybox_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/skybox_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/marker_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/marker_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/grass_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/grass_frag_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/grass_shadow_vert_glsl.cpp.obj CMakeFiles/shaders.dir/shaders/grass_shadow_frag_glsl.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter
   OBJECT_DIR = CMakeFiles\shaders.dir
   POST_BUILD = cd .
@@ -906,6 +938,46 @@ build CMakeFiles/project.dir/src/project/objects/pedestal.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\project.dir
   OBJECT_FILE_DIR = CMakeFiles\project.dir\src\project\objects
 
+build CMakeFiles/project.dir/src/project/objects/sofa.cpp.obj: CXX_COMPILER__project_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/objects/sofa.cpp || cmake_object_order_depends_target_project
+  DEFINES = -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\project.dir\src\project\objects\sofa.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\project.dir
+  OBJECT_FILE_DIR = CMakeFiles\project.dir\src\project\objects
+
+build CMakeFiles/project.dir/src/project/objects/coffee_table.cpp.obj: CXX_COMPILER__project_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/objects/coffee_table.cpp || cmake_object_order_depends_target_project
+  DEFINES = -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\project.dir\src\project\objects\coffee_table.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\project.dir
+  OBJECT_FILE_DIR = CMakeFiles\project.dir\src\project\objects
+
+build CMakeFiles/project.dir/src/project/objects/ground.cpp.obj: CXX_COMPILER__project_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/objects/ground.cpp || cmake_object_order_depends_target_project
+  DEFINES = -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\project.dir\src\project\objects\ground.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\project.dir
+  OBJECT_FILE_DIR = CMakeFiles\project.dir\src\project\objects
+
+build CMakeFiles/project.dir/src/project/objects/grass_field.cpp.obj: CXX_COMPILER__project_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/objects/grass_field.cpp || cmake_object_order_depends_target_project
+  DEFINES = -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\project.dir\src\project\objects\grass_field.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\project.dir
+  OBJECT_FILE_DIR = CMakeFiles\project.dir\src\project\objects
+
+build CMakeFiles/project.dir/src/project/objects/lamp.cpp.obj: CXX_COMPILER__project_unscanned_Debug C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/objects/lamp.cpp || cmake_object_order_depends_target_project
+  DEFINES = -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1
+  DEP_FILE = CMakeFiles\project.dir\src\project\objects\lamp.cpp.obj.d
+  FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug
+  OBJECT_DIR = CMakeFiles\project.dir
+  OBJECT_FILE_DIR = CMakeFiles\project.dir\src\project\objects
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target project
@@ -914,7 +986,7 @@ build CMakeFiles/project.dir/src/project/objects/pedestal.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable project.exe
 
-build project.exe: CXX_EXECUTABLE_LINKER__project_Debug CMakeFiles/project.dir/src/project/project.cpp.obj CMakeFiles/project.dir/src/project/core/object.cpp.obj CMakeFiles/project.dir/src/project/core/scene.cpp.obj CMakeFiles/project.dir/src/project/core/camera.cpp.obj CMakeFiles/project.dir/src/project/core/shadow_map.cpp.obj CMakeFiles/project.dir/src/project/objects/floor.cpp.obj CMakeFiles/project.dir/src/project/objects/skybox.cpp.obj CMakeFiles/project.dir/src/project/objects/wall.cpp.obj CMakeFiles/project.dir/src/project/objects/ceiling.cpp.obj CMakeFiles/project.dir/src/project/objects/light_marker.cpp.obj CMakeFiles/project.dir/src/project/objects/pedestal.cpp.obj | libppgso.a libshaders.a C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglfw3.a C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglew32.a C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a || libppgso.a libshaders.a
+build project.exe: CXX_EXECUTABLE_LINKER__project_Debug CMakeFiles/project.dir/src/project/project.cpp.obj CMakeFiles/project.dir/src/project/core/object.cpp.obj CMakeFiles/project.dir/src/project/core/scene.cpp.obj CMakeFiles/project.dir/src/project/core/camera.cpp.obj CMakeFiles/project.dir/src/project/core/shadow_map.cpp.obj CMakeFiles/project.dir/src/project/objects/floor.cpp.obj CMakeFiles/project.dir/src/project/objects/skybox.cpp.obj CMakeFiles/project.dir/src/project/objects/wall.cpp.obj CMakeFiles/project.dir/src/project/objects/ceiling.cpp.obj CMakeFiles/project.dir/src/project/objects/light_marker.cpp.obj CMakeFiles/project.dir/src/project/objects/pedestal.cpp.obj CMakeFiles/project.dir/src/project/objects/sofa.cpp.obj CMakeFiles/project.dir/src/project/objects/coffee_table.cpp.obj CMakeFiles/project.dir/src/project/objects/ground.cpp.obj CMakeFiles/project.dir/src/project/objects/grass_field.cpp.obj CMakeFiles/project.dir/src/project/objects/lamp.cpp.obj | libppgso.a libshaders.a C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglfw3.a C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglew32.a C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a || libppgso.a libshaders.a
   FLAGS = -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter
   LINK_LIBRARIES = libppgso.a  libshaders.a  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglfw3.a  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglew32.a  -lopengl32  -lglu32  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\project.dir
@@ -1410,6 +1482,42 @@ build shaders/marker_vert_glsl.cpp shaders/marker_vert_glsl.h | ${cmake_ninja_wo
 build shaders/marker_frag_glsl.cpp shaders/marker_frag_glsl.h | ${cmake_ninja_workdir}shaders/marker_frag_glsl.cpp ${cmake_ninja_workdir}shaders/marker_frag_glsl.h: CUSTOM_COMMAND C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/marker_frag.glsl
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\bstor\Desktop\PPGSO2\ppgso2026\ppgso-public\ppgso-public\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DOUTPUT_C=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/marker_frag_glsl.cpp -DOUTPUT_H=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/marker_frag_glsl.h -DSYMBOL=marker_frag_glsl -DINPUT_FILE=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/marker_frag.glsl -P C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake/bin2c.cmake"
   DESC = Generating resource from C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/marker_frag.glsl
+  restat = 1
+
+
+#############################################
+# Custom command for shaders\grass_vert_glsl.cpp
+
+build shaders/grass_vert_glsl.cpp shaders/grass_vert_glsl.h | ${cmake_ninja_workdir}shaders/grass_vert_glsl.cpp ${cmake_ninja_workdir}shaders/grass_vert_glsl.h: CUSTOM_COMMAND C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_vert.glsl
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\bstor\Desktop\PPGSO2\ppgso2026\ppgso-public\ppgso-public\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DOUTPUT_C=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_vert_glsl.cpp -DOUTPUT_H=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_vert_glsl.h -DSYMBOL=grass_vert_glsl -DINPUT_FILE=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_vert.glsl -P C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake/bin2c.cmake"
+  DESC = Generating resource from C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_vert.glsl
+  restat = 1
+
+
+#############################################
+# Custom command for shaders\grass_frag_glsl.cpp
+
+build shaders/grass_frag_glsl.cpp shaders/grass_frag_glsl.h | ${cmake_ninja_workdir}shaders/grass_frag_glsl.cpp ${cmake_ninja_workdir}shaders/grass_frag_glsl.h: CUSTOM_COMMAND C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_frag.glsl
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\bstor\Desktop\PPGSO2\ppgso2026\ppgso-public\ppgso-public\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DOUTPUT_C=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_frag_glsl.cpp -DOUTPUT_H=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_frag_glsl.h -DSYMBOL=grass_frag_glsl -DINPUT_FILE=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_frag.glsl -P C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake/bin2c.cmake"
+  DESC = Generating resource from C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_frag.glsl
+  restat = 1
+
+
+#############################################
+# Custom command for shaders\grass_shadow_vert_glsl.cpp
+
+build shaders/grass_shadow_vert_glsl.cpp shaders/grass_shadow_vert_glsl.h | ${cmake_ninja_workdir}shaders/grass_shadow_vert_glsl.cpp ${cmake_ninja_workdir}shaders/grass_shadow_vert_glsl.h: CUSTOM_COMMAND C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_shadow_vert.glsl
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\bstor\Desktop\PPGSO2\ppgso2026\ppgso-public\ppgso-public\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DOUTPUT_C=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_shadow_vert_glsl.cpp -DOUTPUT_H=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_shadow_vert_glsl.h -DSYMBOL=grass_shadow_vert_glsl -DINPUT_FILE=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_shadow_vert.glsl -P C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake/bin2c.cmake"
+  DESC = Generating resource from C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_shadow_vert.glsl
+  restat = 1
+
+
+#############################################
+# Custom command for shaders\grass_shadow_frag_glsl.cpp
+
+build shaders/grass_shadow_frag_glsl.cpp shaders/grass_shadow_frag_glsl.h | ${cmake_ninja_workdir}shaders/grass_shadow_frag_glsl.cpp ${cmake_ninja_workdir}shaders/grass_shadow_frag_glsl.h: CUSTOM_COMMAND C$:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_shadow_frag.glsl
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\bstor\Desktop\PPGSO2\ppgso2026\ppgso-public\ppgso-public\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DOUTPUT_C=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_shadow_frag_glsl.cpp -DOUTPUT_H=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/shaders/grass_shadow_frag_glsl.h -DSYMBOL=grass_shadow_frag_glsl -DINPUT_FILE=C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_shadow_frag.glsl -P C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake/bin2c.cmake"
+  DESC = Generating resource from C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/src/project/shaders/grass_shadow_frag.glsl
   restat = 1
 
 # =============================================================================

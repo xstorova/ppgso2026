@@ -706,3 +706,1371 @@ events:
       variable: "ASSIMP_VERSION_REVISION"
       cached: true
 ...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_b5de3
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_b5de3.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_b5de3.dir/assimp_version_major.cpp.obj -o cmTC_b5de3.exe -Wl,--out-implib,libcmTC_b5de3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_ccde1
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_ccde1.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_ccde1.dir/assimp_version_minor.cpp.obj -o cmTC_ccde1.exe -Wl,--out-implib,libcmTC_ccde1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_76aa0
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_76aa0.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_76aa0.dir/assimp_version_revision.cpp.obj -o cmTC_76aa0.exe -Wl,--out-implib,libcmTC_76aa0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_f30c2
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_f30c2.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_f30c2.dir/assimp_version_major.cpp.obj -o cmTC_f30c2.exe -Wl,--out-implib,libcmTC_f30c2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+        Exit code 0xc0000135
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_d6a50
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_d6a50.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_d6a50.dir/assimp_version_minor.cpp.obj -o cmTC_d6a50.exe -Wl,--out-implib,libcmTC_d6a50.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+        Exit code 0xc0000135
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_ad1f8
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_ad1f8.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_ad1f8.dir/assimp_version_revision.cpp.obj -o cmTC_ad1f8.exe -Wl,--out-implib,libcmTC_ad1f8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+        Exit code 0xc0000135
+      exitCode: "FAILED_TO_RUN"
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_0b7d1
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_0b7d1.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_0b7d1.dir/assimp_version_major.cpp.obj -o cmTC_0b7d1.exe -Wl,--out-implib,libcmTC_0b7d1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_35615
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_35615.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_35615.dir/assimp_version_minor.cpp.obj -o cmTC_35615.exe -Wl,--out-implib,libcmTC_35615.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_e312e
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_e312e.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_e312e.dir/assimp_version_revision.cpp.obj -o cmTC_e312e.exe -Wl,--out-implib,libcmTC_e312e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_ccc57
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_ccc57.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_ccc57.dir/assimp_version_major.cpp.obj -o cmTC_ccc57.exe -Wl,--out-implib,libcmTC_ccc57.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_a4e6e
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_a4e6e.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_a4e6e.dir/assimp_version_minor.cpp.obj -o cmTC_a4e6e.exe -Wl,--out-implib,libcmTC_a4e6e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_4a7e0
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_4a7e0.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_4a7e0.dir/assimp_version_revision.cpp.obj -o cmTC_4a7e0.exe -Wl,--out-implib,libcmTC_4a7e0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_a58fc
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_a58fc.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_a58fc.dir/assimp_version_major.cpp.obj -o cmTC_a58fc.exe -Wl,--out-implib,libcmTC_a58fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_0de79
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_0de79.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_0de79.dir/assimp_version_minor.cpp.obj -o cmTC_0de79.exe -Wl,--out-implib,libcmTC_0de79.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_aa188
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_aa188.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_aa188.dir/assimp_version_revision.cpp.obj -o cmTC_aa188.exe -Wl,--out-implib,libcmTC_aa188.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_a4319
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_a4319.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_a4319.dir/assimp_version_major.cpp.obj -o cmTC_a4319.exe -Wl,--out-implib,libcmTC_a4319.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_57437
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_57437.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_57437.dir/assimp_version_minor.cpp.obj -o cmTC_57437.exe -Wl,--out-implib,libcmTC_57437.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_9cede
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_9cede.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_9cede.dir/assimp_version_revision.cpp.obj -o cmTC_9cede.exe -Wl,--out-implib,libcmTC_9cede.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_c02d8
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_c02d8.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_c02d8.dir/assimp_version_major.cpp.obj -o cmTC_c02d8.exe -Wl,--out-implib,libcmTC_c02d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_2037d
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_2037d.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_2037d.dir/assimp_version_minor.cpp.obj -o cmTC_2037d.exe -Wl,--out-implib,libcmTC_2037d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_197b8
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_197b8.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_197b8.dir/assimp_version_revision.cpp.obj -o cmTC_197b8.exe -Wl,--out-implib,libcmTC_197b8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_812a7
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_812a7.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_812a7.dir/assimp_version_major.cpp.obj -o cmTC_812a7.exe -Wl,--out-implib,libcmTC_812a7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_27fbc
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_27fbc.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_27fbc.dir/assimp_version_minor.cpp.obj -o cmTC_27fbc.exe -Wl,--out-implib,libcmTC_27fbc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_8d791
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_8d791.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_8d791.dir/assimp_version_revision.cpp.obj -o cmTC_8d791.exe -Wl,--out-implib,libcmTC_8d791.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_6b4ef
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_6b4ef.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_6b4ef.dir/assimp_version_major.cpp.obj -o cmTC_6b4ef.exe -Wl,--out-implib,libcmTC_6b4ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_ec3cd
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_ec3cd.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_ec3cd.dir/assimp_version_minor.cpp.obj -o cmTC_ec3cd.exe -Wl,--out-implib,libcmTC_ec3cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_5f8c9
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_5f8c9.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_5f8c9.dir/assimp_version_revision.cpp.obj -o cmTC_5f8c9.exe -Wl,--out-implib,libcmTC_5f8c9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_2476e
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_2476e.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_2476e.dir/assimp_version_major.cpp.obj -o cmTC_2476e.exe -Wl,--out-implib,libcmTC_2476e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_d61af
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_d61af.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_d61af.dir/assimp_version_minor.cpp.obj -o cmTC_d61af.exe -Wl,--out-implib,libcmTC_d61af.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_726b5
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_726b5.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_726b5.dir/assimp_version_revision.cpp.obj -o cmTC_726b5.exe -Wl,--out-implib,libcmTC_726b5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_6e46f
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_6e46f.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_6e46f.dir/assimp_version_major.cpp.obj -o cmTC_6e46f.exe -Wl,--out-implib,libcmTC_6e46f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f8733
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_f8733.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_f8733.dir/assimp_version_minor.cpp.obj -o cmTC_f8733.exe -Wl,--out-implib,libcmTC_f8733.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_6516d
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_6516d.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_6516d.dir/assimp_version_revision.cpp.obj -o cmTC_6516d.exe -Wl,--out-implib,libcmTC_6516d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_49394
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_49394.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_49394.dir/assimp_version_major.cpp.obj -o cmTC_49394.exe -Wl,--out-implib,libcmTC_49394.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_e19fd
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_e19fd.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_e19fd.dir/assimp_version_minor.cpp.obj -o cmTC_e19fd.exe -Wl,--out-implib,libcmTC_e19fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_a4415
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_a4415.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_a4415.dir/assimp_version_revision.cpp.obj -o cmTC_a4415.exe -Wl,--out-implib,libcmTC_a4415.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_b401b
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_b401b.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_b401b.dir/assimp_version_major.cpp.obj -o cmTC_b401b.exe -Wl,--out-implib,libcmTC_b401b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_71bfc
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_71bfc.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_71bfc.dir/assimp_version_minor.cpp.obj -o cmTC_71bfc.exe -Wl,--out-implib,libcmTC_71bfc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_bb2cf
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_bb2cf.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_bb2cf.dir/assimp_version_revision.cpp.obj -o cmTC_bb2cf.exe -Wl,--out-implib,libcmTC_bb2cf.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_fdc15
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_fdc15.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_fdc15.dir/assimp_version_major.cpp.obj -o cmTC_fdc15.exe -Wl,--out-implib,libcmTC_fdc15.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_49637
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_49637.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_49637.dir/assimp_version_minor.cpp.obj -o cmTC_49637.exe -Wl,--out-implib,libcmTC_49637.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_94423
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include  -o CMakeFiles/cmTC_94423.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_94423.dir/assimp_version_revision.cpp.obj -o cmTC_94423.exe -Wl,--out-implib,libcmTC_94423.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:196 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MAJOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_9b0fa
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_9b0fa.dir/assimp_version_major.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_major.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_9b0fa.dir/assimp_version_major.cpp.obj -o cmTC_9b0fa.exe -Wl,--out-implib,libcmTC_9b0fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MAJOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 5
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:201 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_MINOR_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_2ba0e
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_2ba0e.dir/assimp_version_minor.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_minor.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_2ba0e.dir/assimp_version_minor.cpp.obj -o cmTC_2ba0e.exe -Wl,--out-implib,libcmTC_2ba0e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_MINOR"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 3
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/FindASSIMP.cmake:206 (try_run)"
+      - "CMakeLists.txt:60 (find_package)"
+    directories:
+      source: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake"
+    buildResult:
+      variable: "ASSIMP_VERSION_REVISION_COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_26b6d
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -isystem C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -fdiagnostics-color=always -o CMakeFiles/cmTC_26b6d.dir/assimp_version_revision.cpp.obj -c C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/assimp_version_revision.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_26b6d.dir/assimp_version_revision.cpp.obj -o cmTC_26b6d.exe -Wl,--out-implib,libcmTC_26b6d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "ASSIMP_VERSION_REVISION"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1565824753
+...

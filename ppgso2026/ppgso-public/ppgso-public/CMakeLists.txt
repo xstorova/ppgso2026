@@ -100,6 +100,8 @@ set(PPGSO_SHADER_SRC
         src/project/shaders/shadow_vert.glsl src/project/shaders/shadow_frag.glsl
         src/project/shaders/skybox_vert.glsl src/project/shaders/skybox_frag.glsl
         src/project/shaders/marker_vert.glsl src/project/shaders/marker_frag.glsl
+        src/project/shaders/grass_vert.glsl src/project/shaders/grass_frag.glsl
+        src/project/shaders/grass_shadow_vert.glsl src/project/shaders/grass_shadow_frag.glsl
         )
 add_resources(shaders ${PPGSO_SHADER_SRC})
 
@@ -249,7 +251,12 @@ add_executable(project
         src/project/objects/wall.cpp
         src/project/objects/ceiling.cpp
         src/project/objects/light_marker.cpp
-        src/project/objects/pedestal.cpp)
+        src/project/objects/pedestal.cpp
+        src/project/objects/sofa.cpp
+        src/project/objects/coffee_table.cpp
+        src/project/objects/ground.cpp
+        src/project/objects/grass_field.cpp
+        src/project/objects/lamp.cpp)
 target_link_libraries(project ppgso shaders)
 install(TARGETS project DESTINATION .)
 add_custom_command(TARGET project POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/data/ ${CMAKE_CURRENT_BINARY_DIR})

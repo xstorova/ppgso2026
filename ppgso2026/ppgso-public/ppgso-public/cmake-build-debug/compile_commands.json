@@ -97,6 +97,30 @@
 },
 {
   "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\shaders.dir\\shaders\\grass_vert_glsl.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\cmake-build-debug\\shaders\\grass_vert_glsl.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\cmake-build-debug\\shaders\\grass_vert_glsl.cpp",
+  "output": "CMakeFiles\\shaders.dir\\shaders\\grass_vert_glsl.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\shaders.dir\\shaders\\grass_frag_glsl.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\cmake-build-debug\\shaders\\grass_frag_glsl.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\cmake-build-debug\\shaders\\grass_frag_glsl.cpp",
+  "output": "CMakeFiles\\shaders.dir\\shaders\\grass_frag_glsl.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\shaders.dir\\shaders\\grass_shadow_vert_glsl.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\cmake-build-debug\\shaders\\grass_shadow_vert_glsl.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\cmake-build-debug\\shaders\\grass_shadow_vert_glsl.cpp",
+  "output": "CMakeFiles\\shaders.dir\\shaders\\grass_shadow_vert_glsl.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\shaders.dir\\shaders\\grass_shadow_frag_glsl.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\cmake-build-debug\\shaders\\grass_shadow_frag_glsl.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\cmake-build-debug\\shaders\\grass_shadow_frag_glsl.cpp",
+  "output": "CMakeFiles\\shaders.dir\\shaders\\grass_shadow_frag_glsl.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
   "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\ppgso.dir\\ppgso\\Mesh_Assimp.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\ppgso\\Mesh_Assimp.cpp",
   "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\ppgso\\Mesh_Assimp.cpp",
   "output": "CMakeFiles\\ppgso.dir\\ppgso\\Mesh_Assimp.cpp.obj"
@@ -340,6 +364,36 @@
   "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\project.dir\\src\\project\\objects\\pedestal.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\pedestal.cpp",
   "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\pedestal.cpp",
   "output": "CMakeFiles\\project.dir\\src\\project\\objects\\pedestal.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\project.dir\\src\\project\\objects\\sofa.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\sofa.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\sofa.cpp",
+  "output": "CMakeFiles\\project.dir\\src\\project\\objects\\sofa.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\project.dir\\src\\project\\objects\\coffee_table.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\coffee_table.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\coffee_table.cpp",
+  "output": "CMakeFiles\\project.dir\\src\\project\\objects\\coffee_table.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\project.dir\\src\\project\\objects\\ground.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\ground.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\ground.cpp",
+  "output": "CMakeFiles\\project.dir\\src\\project\\objects\\ground.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\project.dir\\src\\project\\objects\\grass_field.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\grass_field.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\grass_field.cpp",
+  "output": "CMakeFiles\\project.dir\\src\\project\\objects\\grass_field.cpp.obj"
+},
+{
+  "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGLEW_STATIC -DGLM_FORCE_RADIANS -DUSE_ASSIMP=1 -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/ppgso -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public -IC:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\project.dir\\src\\project\\objects\\lamp.cpp.obj -c C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\lamp.cpp",
+  "file": "C:\\Users\\bstor\\Desktop\\PPGSO2\\ppgso2026\\ppgso-public\\ppgso-public\\src\\project\\objects\\lamp.cpp",
+  "output": "CMakeFiles\\project.dir\\src\\project\\objects\\lamp.cpp.obj"
 },
 {
   "directory": "C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/cmake-build-debug",

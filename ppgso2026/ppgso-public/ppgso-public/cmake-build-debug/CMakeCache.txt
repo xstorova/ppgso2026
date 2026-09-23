@@ -99,7 +99,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/ppgso
 CMAKE_LINKER:FILEPATH=C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -281,15 +281,15 @@ ASSIMP_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Result of try_run()
 ASSIMP_VERSION_MAJOR:INTERNAL=5
 //Result of TRY_COMPILE
-ASSIMP_VERSION_MAJOR_COMPILE_RESULT:INTERNAL=FALSE
+ASSIMP_VERSION_MAJOR_COMPILE_RESULT:INTERNAL=TRUE
 //Result of try_run()
 ASSIMP_VERSION_MINOR:INTERNAL=3
 //Result of TRY_COMPILE
-ASSIMP_VERSION_MINOR_COMPILE_RESULT:INTERNAL=FALSE
+ASSIMP_VERSION_MINOR_COMPILE_RESULT:INTERNAL=TRUE
 //Result of try_run()
 ASSIMP_VERSION_REVISION:INTERNAL=1565824753
 //Result of TRY_COMPILE
-ASSIMP_VERSION_REVISION_COMPILE_RESULT:INTERNAL=FALSE
+ASSIMP_VERSION_REVISION_COMPILE_RESULT:INTERNAL=TRUE
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -427,7 +427,7 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding ASSIMP
-FIND_PACKAGE_MESSAGE_DETAILS_ASSIMP:INTERNAL=[C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include][C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_ASSIMP:INTERNAL=[C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include][C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libassimp.a][v5.3.1565824753()]
 //Details about finding GLEW
 FIND_PACKAGE_MESSAGE_DETAILS_GLEW:INTERNAL=[C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/include][C:/Users/bstor/Desktop/PPGSO2/ppgso2026/ppgso-public/ppgso-public/dependencies/lib/mingw/libglew32.a][v()]
 //Details about finding GLM

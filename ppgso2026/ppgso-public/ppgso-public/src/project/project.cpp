@@ -9,6 +9,11 @@
 #include "objects/ceiling.h"
 #include "objects/light_marker.h"
 #include "objects/pedestal.h"
+#include "objects/sofa.h"
+#include "objects/coffee_table.h"
+#include "objects/ground.h"
+#include "objects/grass_field.h"
+#include "objects/lamp.h"
 
 const unsigned int WIDTH = 1280;
 const unsigned int HEIGHT = 720;
@@ -47,6 +52,10 @@ public:
     scene.camera.target = scene.camera.position + scene.camera.forward;
 
     scene.objects.push_back(std::move(sky));
+    // Vonkajsia zem / travnik pod domom (siaha do dialky)
+    scene.objects.push_back(std::make_unique<Ground>(-floorThickness, 160.0f, glm::vec2(25.0f, 25.0f)));
+    // [OpenGL Instancing] 5000 instancii travy na zemi
+    scene.objects.push_back(std::make_unique<GrassField>(5000, -floorThickness, 150.0f));
     scene.objects.push_back(std::make_unique<Floor>(floorTopY, roomHalf, roomHalf, floorThickness));
     scene.objects.push_back(std::make_unique<Ceiling>(wallTopY, roomHalf, roomHalf, ceilThickness));
 
@@ -144,6 +153,15 @@ public:
     scene.objects.push_back(std::make_unique<Pedestal>(0.0f, 0.5f, 0.0f));
     scene.objects.push_back(std::make_unique<Pedestal>(2.5f, 0.75f, 2.0f));
 
+    // Pohodlná pohovka v izbe s fotorealistickou textúrou (Albedo, AO) a Normal mapou
+    scene.objects.push_back(std::make_unique<Sofa>(glm::vec3(0.0f, 0.0f, -7.0f), 90.0f, 0.057f));
+
+    // Konferenčný stolík pred gaučom
+    scene.objects.push_back(std::make_unique<CoffeeTable>(glm::vec3(0.0f, 0.0f, -4.5f), 180.0f, 0.0025f));
+
+    // Stropná lampa visiaca zo stropu v strede miestnosti
+    scene.objects.push_back(std::make_unique<Lamp>(glm::vec3(0.0f, wallTopY, 0.0f), 0.0f, 0.015f));
+
     // Vizualny indikator svetla v strede miestnosti (pod stromom)
     scene.objects.push_back(std::make_unique<LightMarker>(0));
 
@@ -213,9 +231,12 @@ public:
 };
 
 int main() {
-  ProjectWindow window;
-
-  while (window.pollEvents()) {}
-
+  try {
+    ProjectWindow window;
+    while (window.pollEvents()) {}
+  } catch (const std::exception &e) {
+    std::cerr << "\n[CRASH DETECTED] " << e.what() << std::endl;
+    return EXIT_FAILURE;
+  }
   return EXIT_SUCCESS;
 }
